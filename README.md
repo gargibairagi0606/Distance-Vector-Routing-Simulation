@@ -32,7 +32,7 @@ stores the minimum cost to reach every other router in the network.
 Routers periodically exchange routing tables with neighbors and update their
 own tables using the Bellman-Ford equation:
 ```
-D(x, y) = min ( cost(x, v) + D(v, y) )
+D(x, y) = min (cost(x, v) + D(v, y))
 ```
 This process continues until all routers have the correct shortest paths.
 
